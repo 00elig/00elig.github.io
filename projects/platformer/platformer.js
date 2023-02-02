@@ -30,6 +30,12 @@ $(function () {
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
 
+    createPlatform(000, 300, 200, 1400)
+    createPlatform(250, 400, 100, 10)
+    createPlatform(400, 300, 100, 10)
+    createPlatform(600, 400, 100, 10)
+    createPlatform(900, 300, 200, 1400)
+    createPlatform(1200, 600, 100, 10)
     
     
     
@@ -41,8 +47,9 @@ $(function () {
     // Your collectable choices are 'database' 'diamond' 'grace' 'kennedi' 'max' and 'steve'; more can be added if you wish
     // example usage: createCollectable(type, x, y, gravity, bounce)
     
-    
-    
+    createCollectable("diamond", 400, 300, 20, 0.5); // creates a "diamond" collectible at the coordinates (400, 300), falling with a high gravity of 20, and bouncing with 50% bounce
+    createCollectable("grace", 900, 300); // creates a "grace" collectible at the coordinates (900, 300), falling with default gravity and bouncing with default bounce %
+    createCollectable ("database", 1200, 600, 30, 1) // database collectable !!!
     
     
     // TODO 3
@@ -53,7 +60,7 @@ $(function () {
 
 
 
-
+    createCannon("top", 350, 1000); // cannon on top, 400px across, shooting once per second
 
 
     /////////////////////////////////////////////////

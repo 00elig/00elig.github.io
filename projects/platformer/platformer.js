@@ -47,9 +47,9 @@ $(function () {
     // Your collectable choices are 'database' 'diamond' 'grace' 'kennedi' 'max' and 'steve'; more can be added if you wish
     // example usage: createCollectable(type, x, y, gravity, bounce)
     
-    createCollectable("diamond", 400, 300, 20, 0.5); // creates a "diamond" collectible at the coordinates (400, 300), falling with a high gravity of 20, and bouncing with 50% bounce
-    createCollectable("grace", 900, 300); // creates a "grace" collectible at the coordinates (900, 300), falling with default gravity and bouncing with default bounce %
-    createCollectable ("database", 1200, 600, 30, 1) // database collectable !!!
+    createCollectable("diamond", 450, 100, 02, 1); // creates a "diamond" collectible at the coordinates (400, 300), falling with a high gravity of 20, and bouncing with 50% bounce
+    createCollectable("grace", 970, 200); // creates a "grace" collectible at the coordinates (900, 300), falling with default gravity and bouncing with default bounce %
+    createCollectable ("database", 1225, 400, 01, 1) // database collectable !!!
     
     
     // TODO 3
@@ -61,6 +61,7 @@ $(function () {
 
 
     createCannon("top", 350, 1000); // cannon on top, 400px across, shooting once per second
+    createCannon("top", 1050, 1000); // cannon on top, 400px across, shooting once per second
 
 
     /////////////////////////////////////////////////

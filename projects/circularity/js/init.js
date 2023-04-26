@@ -42,9 +42,12 @@ var init = function (window) {
         drawCircle();
         drawCircle();
 
-        for (var drawCircle = 0; drawCircle < 100; drawcircle++); {
-            if 
+        for (var count = 0; count < 95; count++) {
+            drawCircle() 
+
         }
+          
+        
 
         ////////////////////////////////////////////////////////////
         ///////////////// PROGRAM LOGIC ////////////////////////////
